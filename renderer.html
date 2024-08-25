@@ -6,16 +6,20 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/renderer.css">
+	<script>window.texme = {renderOnLoad: false, style: "plain"}</script>
+	<script src="https://cdn.jsdelivr.net/npm/texme@1.2.2"></script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="assets/js/directories.js"></script>
-	<script src="assets/js/index.js"></script>
+	<script src="assets/js/renderer.js"></script>
 	<title>Благословение ИВТ</title>
 </head>
 <body>
-	<h1 style="display: none">Благословение ИВТ</h1>
-	<div id="container">
-
+	<textarea id="mdfile" style="display: none"></textarea>
+	<div id="navButtons">
+		<a href="#" id="prevLink" style="visibility: hidden">← Прошлый билет</a>
+		<a href="#" id="back">↓ Назад ↓</a>
+		<a href="#" id="nextLink" style="visibility: hidden">Следующий билет →</a>
 	</div>
 </body>
 </html>
