@@ -46,6 +46,10 @@ img {
 @media only screen and (max-width: 640px) {
 	#navButtons {
 		flex-direction: column;
+		a {
+			font-size: 24px;
+			line-height: 250%;
+		}
 	}
 	p, h1, h2, h3, h4, h5, h6, ul, ol, li, a {
 		font-size: 12px;
