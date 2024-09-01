@@ -97,4 +97,30 @@ window.dirs = [
 			{"name": "Привести квадратичную форму к каноническому виду с помощью метода Лагранжа.", "contents": "algem/problem_quadratic_form_lagrange"}
 		]},
 	]},
+	{"name": "Матанализ", "contents": [
+		{"name": "Экзамен 1 курса, 4 модуля", "contents": [
+			{"name": "Определения первообразной и неопределенного интеграла. Свойства неопределенного интеграла, следующие из определения. Линейность неопределенного интеграла.", "contents": "calculus/1-4/definitions_of_antiderivative_and_indefinite_integral_properties_of_indefinite_integral_linearity_of_indefinite_integral"},
+			{"name": "Формулы интегрирования по частям и замены переменной для неопределенного интеграла.", "contents": "calculus/1-4/integration_by_parts_and_variable_substitution_formulas_for_indefinite_integral"},
+			{"name": "Определения разбиения отрезка, интегральной суммы, интеграла Римана. Необходимое условие интегрируемости числовой функции на отрезке.", "contents": "calculus/1-4/definitions_of_partition_integral_sum_riemann_integral_necessary_condition_for_integrability"},
+			{"name": "Критерий интегрируемости. Классы интегрируемых функций.", "contents": "calculus/1-4/criterion_for_integrability_and_classes_of_integrable_functions"},
+			{"name": "Арифметические и аддитивные свойства интеграла Римана. Свойства интеграла Римана, связанные с неравенствами.", "contents": "calculus/1-4/arithmetic_and_additive_properties_of_riemann_integral_properties_related_to_inequalities"},
+			{"name": "Формула замены переменной в интеграле Римана. Формула интегрирования по частям в интеграле Римана. Формула Ньютона–Лейбница.", "contents": "calculus/1-4/substitution_formula_in_riemann_integral_integration_by_parts_formula_newton_leibniz_formula"},
+			{"name": "Приложения интеграла Римана: вычисление площадей, длин кривых, объемов тел вращений.", "contents": "calculus/1-4/applications_of_riemann_integral_areas_curve_lengths_volumes_of_solids_of_revolution"},
+			{"name": "Определение несобственных интегралов первого и второго рода. Понятие сходимости. Примеры.", "contents": "calculus/1-4/definition_of_improper_integrals_first_and_second_kind_convergence_examples"},
+			{"name": "Признаки сходимости несобственных интегралов: признак сравнения, признак сравнения в предельной форме.", "contents": "calculus/1-4/convergence_tests_for_improper_integrals_comparison_test_limit_comparison_test"},
+			{"name": "Абсолютная и условная сходимость несобственных интегралов. Примеры.", "contents": "calculus/1-4/absolute_and_conditional_convergence_of_improper_integrals_examples"},
+			{"name": "Числовые ряды. Понятие сходимости. Необходимое условие сходимости (с доказательством).", "contents": "calculus/1-4/numerical_series_concept_of_convergence_necessary_condition_for_convergence_with_proof"},
+			{"name": "Свойства сходящихся числовых рядов: линейность, сходимость остатка, перегруппировка членов ряда.", "contents": "calculus/1-4/properties_of_convergent_numerical_series_linearity_convergence_of_remainder_rearrangement_of_terms"},
+			{"name": "Критерий Коши сходимости числового ряда.", "contents": "calculus/1-4/cauchy_convergence_criterion_for_numerical_series"},
+			{"name": "Признаки сходимости знакоположительных числовых рядов: признак сравнения, признак сравнения в предельной форме, интегральный признак, признак Даламбера (в предельной форме), радикальный признак Коши (в предельной форме).", "contents": "calculus/1-4/convergence_tests_for_positive_term_series_comparison_test_limit_comparison_test_integral_test_dalamberts_test_radical_test"},
+			{"name": "Знакопеременные и знакочередующиеся числовые ряды. Абсолютная и условная сходимость. Примеры. Признак Лейбница.", "contents": "calculus/1-4/alternating_and_conditional_convergence_of_series_examples_leibniz_criterion"},
+			{"name": "Функциональные последовательности и ряды. Понятия поточечной и равномерной сходимости. Примеры.", "contents": "calculus/1-4/functional_sequences_and_series_pointwise_and_uniform_convergence_examples"},
+			{"name": "Признак Вейерштрасса равномерной сходимости функционального ряда.", "contents": "calculus/1-4/weierstrass_uniform_convergence_criterion_for_functional_series"},
+			{"name": "Степенные ряды. Теорема Абеля.", "contents": "calculus/1-4/power_series_abel_theorem"},
+			{"name": "Общий вид множества сходимости степенного ряда. Вычисление радиуса сходимости степенного ряда.", "contents": "calculus/1-4/general_form_of_the_convergence_set_of_a_power_series_calculating_the_radius_of_convergence"},
+			{"name": "Свойства степенных рядов: равномерная сходимость, почленное дифференцирование и интегрирование.", "contents": "calculus/1-4/properties_of_power_series_uniform_convergence_term_by_term_differentiation_and_integration"},
+			{"name": "Ряды Тейлора. Разложимость функции в степенной ряд. Единственность разложения функции в степенной ряд (с доказательством).", "contents": "calculus/1-4/taylor_series_function_expansion_into_a_power_series_uniqueness_of_function_expansion_in_a_power_series"},
+			{"name": "Тригонометрические ряды Фурье по ортогональным на отрезке [0, l] системам Ω_1 = {1/2; cos πnx/l; sin πnx/l}, Ω_2 = {1/2; cos πnx/l}, Ω_3 = {sin πnx/l}. Теоремы о сходимости тригонометрических рядов Фурье.", "contents": "calculus/1-4/fourier_trigonometric_series_on_orthogonal_systems_on_an_interval_convergence_theorems_of_fourier_series"},
+		]}
+	]}
 ]
