@@ -122,5 +122,25 @@ window.dirs = [
 			{"name": "Ряды Тейлора. Разложимость функции в степенной ряд. Единственность разложения функции в степенной ряд (с доказательством).", "contents": "calculus/1-4/taylor_series_function_expansion_into_a_power_series_uniqueness_of_function_expansion_in_a_power_series"},
 			{"name": "Тригонометрические ряды Фурье по ортогональным на отрезке [0, l] системам Ω_1 = {1/2; cos πnx/l; sin πnx/l}, Ω_2 = {1/2; cos πnx/l}, Ω_3 = {sin πnx/l}. Теоремы о сходимости тригонометрических рядов Фурье.", "contents": "calculus/1-4/fourier_trigonometric_series_on_orthogonal_systems_on_an_interval_convergence_theorems_of_fourier_series"},
 		]}
+	]},
+	{"name": "Физика", "contents": [
+		{"name": "Экзамен 1 курса, 2 модуля", "contents": [
+			{"name": "Термическое и калорическое уравнения состояния системы. Уравнение состояния идеального газа. Работа идеального газа при изобарическом процессе.", "contents": "physics/1-2/thermal_and_caloric_equations_ideal_gas_work_in_isobaric_process"},
+			{"name": "Изотермический процесс, его графики в различных координатах. Работа идеального газа при изотермическом процессе.", "contents": "physics/1-2/isothermal_process_graphs_work_of_ideal_gas"},
+			{"name": "Изобарический и изохорический процессы, их графики в различных координатах. Работа идеального газа в этих процессах.", "contents": "physics/1-2/isobaric_isochoric_processes_graphs_work_of_ideal_gas"},
+			{"name": "Адиабатический процесс. Уравнение адиабаты в различных координатах. Работа газа при адиабатическом процессе.", "contents": "physics/1-2/adiabatic_process_equation_work_of_gas"},
+			{"name": "Первое начало термодинамики. Его применение для изобарического, изотермического, изохорического и адиабатного процессов.", "contents": "physics/1-2/first_law_of_thermodynamics_in_various_processes"},
+			{"name": "Теплоемкость. Связь между теплоемкостями С_V и С_P для идеального газа.", "contents": "physics/1-2/heat_capacity_relation_between_Cv_and_Cp"},
+			{"name": "Второе начало термодинамики.", "contents": "physics/1-2/second_law_of_thermodynamics"},
+			{"name": "Расчет изменения энтропии газа в термодинамических процессах.", "contents": "physics/1-2/entropy_change_in_processes"},
+			{"name": "Термодинамические циклы. Цикл Карно, его КПД. График цикла Карно в координатах (P, V) и (Т, S).", "contents": "physics/1-2/thermodynamic_cycles_Carnot_cycle_efficiency_graphs"},
+			{"name": "Калорическое уравнение состояния идеального газа. Число степеней свободы. Закон равнораспределения энергии по степеням свободы.", "contents": "physics/1-2/caloric_equation_degrees_of_freedom_energy_distribution"},
+			{"name": "Начала статистической физики: исходные понятия теории вероятности. Функция распределения, плотность распределения, условие нормировки.", "contents": "physics/1-2/basics_of_statistical_physics_distribution_function_normalization"},
+			{"name": "Давление газа с точки зрения молекулярно-кинетической теории. Основное уравнение молекулярно-кинетической теории.", "contents": "physics/1-2/gas_pressure_molecular_kinetic_theory_equation"},
+			{"name": "Распределение Максвелла. Средние скорости молекул.", "contents": "physics/1-2/Maxwell_distribution_average_molecular_speeds"},
+			{"name": "Барометрическая формула. Распределение Больцмана.", "contents": "physics/1-2/barometric_formula_Boltzmann_distribution"},
+			{"name": "Явления переноса. Средняя длина свободного пробега, среднее время свободного пробега. Распределение частиц по длинам свободного пробега.", "contents": "physics/1-2/transport_phenomena_mean_free_path_distribution"},
+			{"name": "Фазовые переходы первого рода. Уравнение Клапейрона-Клаузиуса. Фазовое равновесие «жидкость - пар», зависимость давления насыщенного пара от температуры.", "contents": "physics/1-2/phase_transitions_Clausius_Clapeyron_equation_vapor_pressure"},
+		]}
 	]}
 ]

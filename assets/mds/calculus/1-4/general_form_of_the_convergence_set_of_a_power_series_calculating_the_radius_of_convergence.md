@@ -21,6 +21,6 @@ $$\lim_{n\rightarrow \infty} \frac{a_{n+1}}{a_n} = \frac1R$$
 $$\sum_{n=1}^\infty |a_n(x-x_0)^n|$$
 $$\frac{|a_{n+1}(x-x_0)^{n+1}|}{|a_n (x-x_0)^n|} = \frac{|a_{n+1}|}{|a_n|}|x-x_0| \rightarrow \frac1R |x-x_0|$$
 По признаку Даламбера чтобы ряд сходился, предел должен быть меньше единицы, а это и есть:
-$$\frac1R|x-x_0| < 1 \Rightarrow |x-x_0|<R$$
+$$\frac1R|x-x_0| < 1 \Rightarrow |x-x_0|< R$$
 Эти формулы, бывают, записывают наоборот:
 $$R = \lim_{n\rightarrow \infty} \frac{a_n}{a_{n+1}} = \frac1{\lim_{n\rightarrow \infty}  \sqrt[n]{a_n}}$$
