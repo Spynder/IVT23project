@@ -48,12 +48,12 @@ $(document).ready(function() {
 
 		if(directory && page > 0) $("#prevLink").css("visibility", "visible");
 		$("#prevLink").click(function() {
-			open(`?[${arr.concat([page-1])}]`, "_self");
+			open(`./renderer.html?[${arr.concat([page-1])}]`, "_self");
 		});
 		
 		if(directory && page+1 < directory.length) $("#nextLink").css("visibility", "visible");
 		$("#nextLink").click(function() {
-			open(`?[${arr.concat([page+1])}]`, "_self");
+			open(`./renderer.html?[${arr.concat([page+1])}]`, "_self");
 		});
 	} catch(e) {
 		url = "404";
@@ -62,9 +62,9 @@ $(document).ready(function() {
 
 	$("#back").click(function() {
 		if(arr !== undefined) {
-			open(`/?[${arr}]`, "_self"); // go to previous directory if we came from it
+			open(`./index.html?[${arr}]`, "_self"); // go to previous directory if we came from it
 		} else
-			open(`/`, "_self"); // otherwise go to the main page
+			open(`./index.html/`, "_self"); // otherwise go to the main page
 
 	});
 
@@ -99,7 +99,7 @@ $(document).ready(function() {
 			let index = result.index;
 			let link = result[0].substring(3, result[0].length-3);
 
-			txt = txt.replaceBetween(index, index+result[0].length, `(renderer.html?&#91;${link}&#93;)`);
+			txt = txt.replaceBetween(index, index+result[0].length, `(./renderer.html?&#91;${link}&#93;)`);
 		}
 
 		// Remove all note tags from obsidian-style .md file. (Maybe return to this later and implement custom tags)
