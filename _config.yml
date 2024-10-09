@@ -1,5 +1,0 @@
-liquid:
-  error_mode: lax
-  strict_variables: false
-exclude:
-  - assets/mds
