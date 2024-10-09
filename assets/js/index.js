@@ -15,7 +15,10 @@ $(document).ready(function() {
 		if(stack.length > 0) {
 			let back = $(`<a class="back" href="?[${stack.slice(0, -1)}]">Назад</a>`);
 			container.append(back);
-		} else $("h1").show();
+		} else {
+			$("h1").show();
+			$("span").show();
+		}
 		for(let j in page) {
 			let link = page[j];
 			let a;

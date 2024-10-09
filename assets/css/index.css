@@ -31,4 +31,17 @@ h1 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 100px;
+}
+
+.pull-request {
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+.pull-request a {
+  color: gray;
 }/*# sourceMappingURL=index.css.map */

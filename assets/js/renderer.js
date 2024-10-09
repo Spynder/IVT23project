@@ -3,6 +3,7 @@ const mdsPath = "assets/mds/";
 
 const imageRegex = /\!\[([^\]]+)\]\]/g; // ![[...]]
 const notesRegex = /\[\!([^\]]+)\]/g; // [!...]
+const noteLinkRegex = /\[\[\[.*\]\]\]/g; // [[[...]]]
 
 const preamble = `$$
 	\\require{physics}
@@ -92,6 +93,13 @@ $(document).ready(function() {
 			if(path.substring(0, 4) !== "http") path = imagePath + path; // local or hyperlink
 
 			txt = txt.replaceBetween(index, index+result[0].length, `<img src=${path} alt=${link} referrerpolicy="no-referrer" ${size}>`);
+		}
+
+		while ((result = noteLinkRegex.exec(txt))) {
+			let index = result.index;
+			let link = result[0].substring(3, result[0].length-3);
+
+			txt = txt.replaceBetween(index, index+result[0].length, `(renderer.html?&#91;${link}&#93;)`);
 		}
 
 		// Remove all note tags from obsidian-style .md file. (Maybe return to this later and implement custom tags)

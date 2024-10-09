@@ -121,6 +121,11 @@ window.dirs = [
 			{"name": "Свойства степенных рядов: равномерная сходимость, почленное дифференцирование и интегрирование.", "contents": "calculus/1-4/properties_of_power_series_uniform_convergence_term_by_term_differentiation_and_integration"},
 			{"name": "Ряды Тейлора. Разложимость функции в степенной ряд. Единственность разложения функции в степенной ряд (с доказательством).", "contents": "calculus/1-4/taylor_series_function_expansion_into_a_power_series_uniqueness_of_function_expansion_in_a_power_series"},
 			{"name": "Тригонометрические ряды Фурье по ортогональным на отрезке [0, l] системам Ω_1 = {1/2; cos πnx/l; sin πnx/l}, Ω_2 = {1/2; cos πnx/l}, Ω_3 = {sin πnx/l}. Теоремы о сходимости тригонометрических рядов Фурье.", "contents": "calculus/1-4/fourier_trigonometric_series_on_orthogonal_systems_on_an_interval_convergence_theorems_of_fourier_series"},
+		]},
+		{"name": "Контрольная по дифференциальным уравнениям 2 курса, 1 модуля", "contents": [
+			{"name": "Задание 1: решение обыкновенных дифференциальных уравнений", "contents": "calculus/2-1/solving_standard_differential_equations"},
+			{"name": "Задание 2: решение неоднородных дифференциальных уравнений высшего порядка, задача Коши", "contents": "calculus/2-1/solving_nonhomogenious_differential_equation"},
+			{"name": "Задание 3: общее решение обыкновенного дифференциального уравнения, не вычисляя коэффициентов", "contents": "calculus/2-1/solving_differential_equation_without_coefficients"},
 		]}
 	]},
 	{"name": "Физика", "contents": [
@@ -141,6 +146,11 @@ window.dirs = [
 			{"name": "Барометрическая формула. Распределение Больцмана.", "contents": "physics/1-2/barometric_formula_Boltzmann_distribution"},
 			{"name": "Явления переноса. Средняя длина свободного пробега, среднее время свободного пробега. Распределение частиц по длинам свободного пробега.", "contents": "physics/1-2/transport_phenomena_mean_free_path_distribution"},
 			{"name": "Фазовые переходы первого рода. Уравнение Клапейрона-Клаузиуса. Фазовое равновесие «жидкость - пар», зависимость давления насыщенного пара от температуры.", "contents": "physics/1-2/phase_transitions_Clausius_Clapeyron_equation_vapor_pressure"},
+		]}
+	]},
+	{"name": "Дискретная математика", "contents": [
+		{"name": "2 курс, 1 модуль", "contents": [
+			{"name": "--- Каминг сун, епт ---"},
 		]}
 	]}
 ]
