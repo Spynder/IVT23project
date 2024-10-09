@@ -48,12 +48,12 @@ $(document).ready(function() {
 
 		if(directory && page > 0) $("#prevLink").css("visibility", "visible");
 		$("#prevLink").click(function() {
-			open(`/index.html?[${arr.concat([page-1])}]`, "_self");
+			open(`?[${arr.concat([page-1])}]`, "_self");
 		});
 		
 		if(directory && page+1 < directory.length) $("#nextLink").css("visibility", "visible");
 		$("#nextLink").click(function() {
-			open(`/index.html?[${arr.concat([page+1])}]`, "_self");
+			open(`?[${arr.concat([page+1])}]`, "_self");
 		});
 	} catch(e) {
 		url = "404";
@@ -62,9 +62,9 @@ $(document).ready(function() {
 
 	$("#back").click(function() {
 		if(arr !== undefined) {
-			open(`/index.html?[${arr}]`, "_self"); // go to previous directory if we came from it
+			open(`/?[${arr}]`, "_self"); // go to previous directory if we came from it
 		} else
-			open(`/index.html`, "_self"); // otherwise go to the main page
+			open(`/`, "_self"); // otherwise go to the main page
 
 	});
 
