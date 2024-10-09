@@ -21,9 +21,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-liquid:
-  strict_variables: false
-
 jobs:
   # Build job
   build:
