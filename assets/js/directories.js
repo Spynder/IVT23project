@@ -149,13 +149,13 @@ window.dirs = [
 		]}
 	]},
 	{"name": "Дискретная математика", "contents": [
-		{"name": "2 курс, 1 модуль", "contents": [
+		{"name": "Вопросы к экзамену 1 модуля", "contents": [
 			{"name": "1. Типы множеств. Операции над множествами. Диаграммы Эйлера-Венна.", "contents": "discrete/2-1/set_types_operations_venn_diagrams"},
 			{"name": "2. Законы теории множеств и их доказательства.", "contents": "discrete/2-1/set_theory_laws_proofs"},
 			{"name": "3. Способы доказательства равенств в теории множеств. Примеры доказательств.", "contents": "discrete/2-1/set_equality_proof_methods_examples"},
 			{"name": "4. Понятие мощности множества. Мощность декартова произведения конечных множеств.", "contents": "discrete/2-1/set_cardinality_cartesian_product_finite_sets"},
 			{"name": "5. Понятие подмножества. Определение для конечного множества числа его подмножеств с заданным количеством элементов и числа всех его подмножеств.", "contents": "discrete/2-1/subset_definition_finite_set_subsets_count"},
-			{"name": "6. Формула включений и исключений. Примеры задач на ее использование.", "contents": "discrete/2-1/inclusion_exclusion_formula_examples"},
+			/*{"name": "6. Формула включений и исключений. Примеры задач на ее использование.", "contents": "discrete/2-1/inclusion_exclusion_formula_examples"},
 			{"name": "7. Основные понятия логики Буля. Операции над логическими переменными и их таблицы истинности.", "contents": "discrete/2-1/boolean_logic_concepts_operations_truth_tables"},
 			{"name": "8. Законы логики Буля и их доказательства.", "contents": "discrete/2-1/boolean_logic_laws_proofs"},
 			{"name": "9. Способы доказательств равенств в логике Буля. Примеры доказательств.", "contents": "discrete/2-1/boolean_equality_proof_methods_examples"},
@@ -163,8 +163,9 @@ window.dirs = [
 			{"name": "11. Основные понятия логики высказываний. Клаузы и их виды. Примеры клауз.", "contents": "discrete/2-1/propositional_logic_clauses_examples"},
 			{"name": "12. Методы доказательств в логике высказываний. Примеры доказательств.", "contents": "discrete/2-1/propositional_logic_proof_methods_examples"},
 			{"name": "13. Правила переноса в клаузах логики высказываний и их обоснование.", "contents": "discrete/2-1/clause_transference_rules_justification"},
-			{"name": "14. Размещения без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/arrangements_with_without_replacement_combinatorics_examples"},
+			{"name": "14. Размещения без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/arrangements_with_without_replacement_combinatorics_examples"},*/
 			
-		]}
+		]},
+		{"name": "Разбор демо варианта контрольной работы 1 модуля", "contents": "discrete/demo_test_module1"},
 	]}
 ]
