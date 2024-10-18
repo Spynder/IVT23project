@@ -107,11 +107,16 @@ $(document).ready(function() {
 		
 		// Add preamble
 		txt = preamble + txt;
+
+		if(url == "404") {
+			txt += `\n\n <p style="color:gray; text-align:center">Попытка открыть файл: ${window.location.search.substring(1)}.</p>`;
+		}
+
 		area.text(txt);
 
 		texme.setOption("onRenderPage", function() {
 			$("main").insertBefore('body:eq(0)');
-		})
+		});
 
 		if(window.loaded)
 			texme.renderPage();
