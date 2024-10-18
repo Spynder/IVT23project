@@ -33,7 +33,7 @@ $(document).ready(function() {
 	let arr = undefined; // GET parameter array, without the last page
 	let page = undefined; // that one last page
 	try { // if there's GET parameter in the link, retrieve it. It should be an array of indices.
-		arr = JSON.parse(window.location.search.substring(1));
+		arr = JSON.parse(decodeURI(window.location.search).substring(1));
 		url = dirs;
 		page = arr.pop();
 		for(let i of arr) {
