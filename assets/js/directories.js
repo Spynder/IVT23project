@@ -163,7 +163,13 @@ window.dirs = [
 			{"name": "11. Основные понятия логики высказываний. Клаузы и их виды. Примеры клауз.", "contents": "discrete/2-1/propositional_logic_clauses_examples"},
 			{"name": "12. Методы доказательств в логике высказываний. Примеры доказательств.", "contents": "discrete/2-1/propositional_logic_proof_methods_examples"},
 			{"name": "13. Правила переноса в клаузах логики высказываний и их обоснование.", "contents": "discrete/2-1/clause_transference_rules_justification"},
-			/*{"name": "14. Размещения без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/arrangements_with_without_replacement_combinatorics_examples"},*/
+			{"name": "14. Размещения без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/arrangements_with_without_replacement_combinatorics_examples"},
+			{"name": "15. Перестановки без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/permutations_with_without_replacement_combinatorics_examples"},
+			{"name": "16. Сочетания без повторений и с повторениями и формулы для их чисел. Примеры задач комбинаторики на эти понятия.", "contents": "discrete/2-1/combinations_with_without_replacement_combinatorics_examples"},
+			{"name": "17. Формула бинома Ньютона и ее обоснование. Свойства чисел сочетаний и их сумм.", "contents": "discrete/2-1/binomial_theorem_justification_combination_sums"},
+			{"name": "18. Упорядоченные разбиения конечных множеств. Формула для их числа. Примеры задач комбинаторики на это понятие.", "contents": "discrete/2-1/ordered_partitions_finite_sets_formula_examples"},
+			{"name": "19. Полиномиальная формула и ее обоснование. Примеры задач на ее применение.", "contents": "discrete/2-1/polynomial_formula_justification_examples"},
+			{"name": "20. Неупорядоченные разбиения конечных множеств. Формула для их числа. Примеры задач комбинаторики на это понятие.", "contents": "discrete/2-1/unordered_partitions_finite_sets_formula_examples"},
 			
 		]},
 		{"name": "Разбор демо варианта контрольной работы 1 модуля", "contents": "discrete/demo_test_module1"},
