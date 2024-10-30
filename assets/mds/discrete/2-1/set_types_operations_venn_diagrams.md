@@ -53,7 +53,7 @@ $$A \setminus B = \set{x \in A \ | \ x \notin B}$$
 Пример: $\set{1,2,3,4} \setminus \set{3,4,5,6} = \set{1,2}$
 
 *Симметричная разность (кольцевая сумма)* - *xor* в булевой логике:
-$$A \triangle B = (A \setminus B) \cup (B \setminus A)$$
+$$A \ \triangle \  B = A \oplus B = (A \setminus B) \cup (B \setminus A)$$
 Результатом этой операции является множество, элементы которого принадлежат *только одному* из множеств - либо $A$, либо $B$.
 Можно равносильно переписать следующими способами:
 $$A\triangle B = (A \cap \overline B) \cup (\overline A \cap B) = (A \cup B) \setminus (A \cap B)$$
