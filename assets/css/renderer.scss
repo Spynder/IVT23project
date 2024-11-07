@@ -12,21 +12,14 @@ html {
 	&.dark-mode {
 		--bg-color: #262626;
 		--text-color: #ddd;
+		blockquote {
+			background: #444;
+		}
 	}
 }
 
-@media (prefers-color-scheme: dark) {
-	html {
-		--bg-color: #262626;
-		--text-color: #ddd;
-	}
-}
-
-@media (prefers-color-scheme: light) {
-	html {
-		--bg-color: #fff;
-		--text-color: #000;
-	}
+blockquote {
+	transition: var(--transition-time);
 }
 
 .dark-mode img {
@@ -144,3 +137,4 @@ input {
 		transform: translateX(26px);
 	}
 }
+

@@ -78,7 +78,7 @@ $(document).ready(function() {
 		else txt = "\n" + txt;
 		let result;
 
-		txt = txt.replace(/</g, " \\lt ").replace(/>/g, " \\gt "); // replace all < and > characters to avoid html-tagging.
+		txt = txt.replace(/</g, " \\lt ")//.replace(/>/g, " \\gt "); // replace all < and > characters to avoid html-tagging.
 		
 		// Rewrite image links from obsidian-style to <img> tags
 		while ((result = imageRegex.exec(txt))) {

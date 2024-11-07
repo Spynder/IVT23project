@@ -14,19 +14,14 @@ html.dark-mode {
   --bg-color: #262626;
   --text-color: #ddd;
 }
+html.dark-mode blockquote {
+  background: #444;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    --bg-color: #262626;
-    --text-color: #ddd;
-  }
+blockquote {
+  transition: var(--transition-time);
 }
-@media (prefers-color-scheme: light) {
-  html {
-    --bg-color: #fff;
-    --text-color: #000;
-  }
-}
+
 .dark-mode img {
   filter: brightness(0.8) contrast(1.2);
   transition: var(--transition-time);
