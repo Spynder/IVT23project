@@ -188,6 +188,6 @@ window.dirs = [
 			
 		]},
 		{"name": "Разбор демо варианта контрольной работы 1 модуля", "contents": "discrete/demo_test_module1"},
-		{"name": "Разбор демо варианта контрольной работы 2 модуля (4/5)", "contents": "discrete/demo_test_module2"},
+		{"name": "Разбор демо варианта контрольной работы 2 модуля", "contents": "discrete/demo_test_module2"},
 	]}
 ]
