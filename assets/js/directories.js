@@ -185,7 +185,14 @@ window.dirs = [
 			{"name": "18. Упорядоченные разбиения конечных множеств. Формула для их числа. Примеры задач комбинаторики на это понятие.", "contents": "discrete/2-1/ordered_partitions_finite_sets_formula_examples"},
 			{"name": "19. Полиномиальная формула и ее обоснование. Примеры задач на ее применение.", "contents": "discrete/2-1/polynomial_formula_justification_examples"},
 			{"name": "20. Неупорядоченные разбиения конечных множеств. Формула для их числа. Примеры задач комбинаторики на это понятие.", "contents": "discrete/2-1/unordered_partitions_finite_sets_formula_examples"},
-			
+		]},
+		{"name": "Вопросы к экзамену 2 модуля", "contents": [
+			{"name": "1. Понятие производящей функции для последовательности чисел и области ее применения. Примеры производящих функций.", "contents": "discrete/2-2/definition_generating_function_sequence_applications_examples"},
+			{"name": "2. Свойства производящих функций при сдвиге последовательности влево или вправо. Вывод этих свойств.", "contents": "discrete/2-2/properties_generating_functions_sequence_shift_proofs"},
+			{"name": "3. Свойства производящих функций для частичных сумм и дополнительных частичных сумм членов последовательности. Вывод этих свойств.", "contents": "discrete/2-2/properties_generating_functions_partial_sums_proofs"},
+			{"name": "4. Свойства производящих функций при двух типах изменения масштаба в последовательности. Вывод этих свойств.", "contents": "discrete/2-2/properties_generating_functions_sequence_scaling_proofs"},
+			{"name": "5. Свойство линейности производящей функции и ее свойство для свертки двух последовательностей. Вывод этих свойств.", "contents": "discrete/2-2/linearity_generating_function_convolution_proofs"},
+
 		]},
 		{"name": "Разбор демо варианта контрольной работы 1 модуля", "contents": "discrete/demo_test_module1"},
 		{"name": "Разбор демо варианта контрольной работы 2 модуля", "contents": "discrete/demo_test_module2"},
