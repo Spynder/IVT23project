@@ -2,7 +2,6 @@ $(document).ready(function() {
 	let darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 		
 	if(localStorage.getItem("darkMode") !== null) {
-		console.log('found', localStorage.getItem("darkMode"))
 		darkMode = localStorage.getItem("darkMode") == "dark";
 	}
 

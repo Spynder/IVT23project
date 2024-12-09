@@ -140,8 +140,22 @@ window.dirs = [
 			{"name": "10. Метод построения частных решений линейного неоднородного обыкновенного дифференциального уравнения с постоянными коэффициентами при наличии неоднородностей специального вида", "contents": "calculus/2-2/particular_solution_method_nonhomogeneous_ode_with_special_inhomogeneity"},
 			{"name": "11. Определение метрического пространства. Примеры. Пространство R^n.", "contents": "calculus/2-2/metric_space_definition_examples_rn_space"},
 			{"name": "12. Определение евклидова пространства. Пространство R^n.", "contents": "calculus/2-2/euclidean_space_definition_rn_space"},
-
-		]}
+		]},
+		{"name": "Экзамен 2 курса, теория", "contents": [
+			{"name": "1. Определение окрестности и проколотой окрестности точки в R^n. Определения внутренних, граничных, предельных точек, точек прикосновения и изолированных точек для некоторого подмножества в R^n. Ограниченные, открытые и замкнутые множества в R^n.", "contents": "calculus/2-2/exam/1_neighborhood_punctured_neighborhood_points_rn_definitions_sets"},
+			{"name": "2. Определение сходящейся последовательности в R^n. Необходимое и достаточное условие существования предела (с доказательством).", "contents": "calculus/2-2/exam/2_converging_sequence_rn_definition_limit_condition_proof"},
+			{"name": "3. Свойства сходящихся последовательностей в R^n: единственность предела, ограниченность последовательности, имеющей предел, теорема Больцано – Вейерштрасса.", "contents": "calculus/2-2/exam/3_converging_sequence_rn_properties_uniqueness_boundedness_bolzano_weierstrass"},
+			{"name": "4. Определения предела (по Коши и по Гейне) для числовой функции n переменных. Определение предела вдоль кривой.", "contents": "calculus/2-2/exam/4_limit_definition_cauchy_heine_multivariable_curve_limit"},
+			{"name": "5. Определение повторных пределов числовой функции в R^2. Утверждение о связи двойного и повторных пределов.", "contents": "calculus/2-2/exam/5_iterated_limits_double_limit_relationship_r2"},
+			{"name": "6. Определение непрерывной в точке и на множестве числовой функции n переменных. Определение непрерывности вдоль кривой.", "contents": "calculus/2-2/exam/6_continuity_point_set_multivariable_function_curve_continuity"},
+			{"name": "7. Теоремы Вейерштрасса о непрерывных функциях.", "contents": "calculus/2-2/exam/7_weierstrass_theorems_continuous_functions"},
+			{"name": "8. Определение частных производных первого и второго порядков для числовой функции n переменных.", "contents": "calculus/2-2/exam/8_partial_derivatives_first_second_order_multivariable_function"},
+			{"name": "9. Определение дифференциала и дифференцируемой в точке числовой функции n переменных.", "contents": "calculus/2-2/exam/9_differential_differentiable_point_multivariable_function"},
+			{"name": "10. Необходимые условия дифференцируемости в точке. Достаточные условия дифференцируемости в точке.", "contents": "calculus/2-2/exam/10_necessary_sufficient_conditions_differentiability_point"},
+			{"name": "11. Теорема о дифференцируемости сложной функции. Инвариантность формы записи первого дифференциала.", "contents": "calculus/2-2/exam/11_differentiability_composite_function_first_differential_invariance"},
+			{"name": "12. Градиент и производная по направлению для числовой функции n переменных. Дивергенция и ротор для векторных полей в R^3.", "contents": "calculus/2-2/exam/12_gradient_directional_derivative_divergence_curl"},
+			
+		]},
 	]},
 	{"name": "Физика", "contents": [
 		{"name": "Экзамен 1 курса, 2 модуля", "contents": [

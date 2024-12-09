@@ -73,6 +73,10 @@ $(document).ready(function() {
 		return this.substring(0, start) + what + this.substring(end);
 	}
 
+	function createTodoBlock() {
+		return `<blockquote class="todo"><p>Мы еще не закончили писать эту часть!</p></blockquote>`
+	}
+
 	fetch(mdsPath + url + ".md").then(res => res.text()).then(function(txt) {
 		if(page !== undefined && !err) txt = "\n" + "# " + directory[page].name + "\n\n" + txt;
 		else txt = "\n" + txt;
@@ -106,6 +110,8 @@ $(document).ready(function() {
 
 		// Remove all note tags from obsidian-style .md file. (Maybe return to this later and implement custom tags)
 		while ((result = notesRegex.exec(txt))) txt = txt.replace(result[0], "");
+
+		txt = txt.replace(/\[todo\]/g, createTodoBlock());
 		
 		// Add preamble
 		txt = preamble + txt;
