@@ -3,10 +3,9 @@ const mdsPath = "assets/mds/";
 
 const imageRegex = /\!\[([^\]]+)\]\]/g; // ![[...]]
 const notesRegex = /\[\!([^\]]+)\]/g; // [!...]
-const noteLinkRegex = /\[\[\[.*\]\]\]/g; // [[[...]]]
+const noteLinkRegex = /\[\[\[.*?\]\]\]/g; // [[[...]]]
 
 const preamble = `$$
-	\\require{physics}
 	\\DeclareMathOperator{\\tg}{tg}
 	\\DeclareMathOperator{\\ctg}{ctg}
 	\\DeclareMathOperator{\\arctg}{arctg}
@@ -104,6 +103,7 @@ $(document).ready(function() {
 		while ((result = noteLinkRegex.exec(txt))) {
 			let index = result.index;
 			let link = result[0].substring(3, result[0].length-3);
+			console.log(link)
 
 			txt = txt.replaceBetween(index, index+result[0].length, `(./renderer.html?&#91;${link}&#93;)`);
 		}

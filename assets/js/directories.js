@@ -175,6 +175,11 @@ window.dirs = [
 			{"name": "Барометрическая формула. Распределение Больцмана.", "contents": "physics/1-2/barometric_formula_Boltzmann_distribution"},
 			{"name": "Явления переноса. Средняя длина свободного пробега, среднее время свободного пробега. Распределение частиц по длинам свободного пробега.", "contents": "physics/1-2/transport_phenomena_mean_free_path_distribution"},
 			{"name": "Фазовые переходы первого рода. Уравнение Клапейрона-Клаузиуса. Фазовое равновесие «жидкость - пар», зависимость давления насыщенного пара от температуры.", "contents": "physics/1-2/phase_transitions_Clausius_Clapeyron_equation_vapor_pressure"},
+		]},
+		{"name": "Квантовая механика (2 курс 2 модуль)", "contents": [
+			{"name": "Как решать кванты? Теория.", "contents": "physics/2-2/quantum_physics_theory"},
+			{"name": "Как решать кванты? Первый вариант.", "contents": "physics/2-2/quantum_physics_var_1"},
+			{"name": "Как решать кванты? Второй вариант.", "contents": "physics/2-2/quantum_physics_var_2"},
 		]}
 	]},
 	{"name": "Дискретная математика", "contents": [
