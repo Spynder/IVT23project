@@ -63,7 +63,7 @@ $$\hat \sigma_y \otimes \hat I = \pmatrix{0 & -i \\ i & 0} \otimes \pmatrix{1 & 
 $$\hat \sigma_z \otimes \hat I = \pmatrix{1 & 0 \\ 0 & -1} \otimes \pmatrix{1 & 0 \\ 0 & 1} = \pmatrix{1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1}$$
 А теперь находим результат действия (умножаем):
 $$(\hat \sigma_y \otimes \hat I)\ket \Psi = \pmatrix{0 & 0 & -i & 0 \\ 0 & 0 & 0 & -i \\ i & 0 & 0 & 0 \\ 0 & i & 0 & 0}\frac1{\sqrt 2}\pmatrix{0\\1\\1\\0} = \frac{1}{\sqrt2}\pmatrix{-i \\ 0 \\ 0 \\ i} = \frac{i}{\sqrt2}\pmatrix{-1\\0\\0\\1}$$
-$$(\hat \sigma_z \otimes \hat I) = \pmatrix{1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1}\frac1{\sqrt 2}\pmatrix{0\\1\\1\\0} = \frac{1}{\sqrt2}\pmatrix{0 \\ 1 \\ -1 \\ 0}$$
+$$(\hat \sigma_z \otimes \hat I)\ket \Psi = \pmatrix{1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1}\frac1{\sqrt 2}\pmatrix{0\\1\\1\\0} = \frac{1}{\sqrt2}\pmatrix{0 \\ 1 \\ -1 \\ 0}$$
 И здесь можно проводить какую-то матричную магию, чтобы снова привести к виду как в условии, но... надо ли? Мы знаем что "вид, как в условии", это линейная комбинация из векторов, которыми могут быть $\ket{HH}, \ket{HV}, \ket{VH}, \ket{VV}$. Так давайте просто их всех посчитаем и просто подберем это решение:
 $$\ket{HH} = \pmatrix{1 \\ 0} \otimes \pmatrix{1 \\ 0} = \pmatrix{1\\0\\0\\0} \ \ \ \ \ket{VV} = \pmatrix{0 \\ 1} \otimes \pmatrix{0 \\ 1} = \pmatrix{0\\0\\0\\1}$$
 $$\ket{HV} = \pmatrix{1 \\ 0} \otimes \pmatrix{0 \\ 1} = \pmatrix{0\\1\\0\\0} \ \ \ \ \ket{VH} = \pmatrix{0 \\ 1} \otimes \pmatrix{1 \\ 0} = \pmatrix{0\\0\\1\\0}$$
