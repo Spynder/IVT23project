@@ -8,6 +8,8 @@ const noteLinkRegex = /\[\[\[.*?\]\]\]/g; // [[[...]]]
 const preamble = `$$
 	\\require{physics}
 	\\renewcommand{\\braket}[1]{\\mathinner{\\langle{#1}\\rangle}}
+	\\renewcommand{\\bra}[1]{\\mathinner{\\langle{#1}\\vert}}
+	\\renewcommand{\\ket}[1]{\\mathinner{\\vert{#1}\\rangle}}
 	\\DeclareMathOperator{\\tg}{tg}
 	\\DeclareMathOperator{\\ctg}{ctg}
 	\\DeclareMathOperator{\\arctg}{arctg}
