@@ -156,6 +156,7 @@ window.dirs = [
 			{"name": "12. Градиент и производная по направлению для числовой функции n переменных. Дивергенция и ротор для векторных полей в R^3.", "contents": "calculus/2-2/exam/12_gradient_directional_derivative_divergence_curl"},
 			
 		]},
+		{"name": "Решение демо-варианта экзамена по матанализу 2 курса.", "contents": "calculus/2-2/exam/0_exam_demo_solution"},
 	]},
 	{"name": "Физика", "contents": [
 		{"name": "Экзамен 1 курса, 2 модуля", "contents": [
