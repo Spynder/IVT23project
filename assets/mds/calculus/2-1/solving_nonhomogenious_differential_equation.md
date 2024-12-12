@@ -1,7 +1,11 @@
-[Mathprofi - неоднородные дифференциальные уравнения](http://mathprofi.ru/kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html)<br>
-[Mathprofi - подбор частного решения](http://mathprofi.ru/kak_podobrat_chastnoe_reshenie_dy.pdf)<br>
-[Mathprofi - вариация произвольных переменных](http://mathprofi.ru/metod_variacii_proizvolnyh_postoyannyh.html)<br>
-[Mathprofi - линейные дифференциальные уравнения высших порядков](http://mathprofi.ru/metod_variacii_proizvolnyh_postoyannyh.html)<br>
+[Mathprofi - неоднородные дифференциальные уравнения](http://mathprofi.ru/kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html)
+
+[Mathprofi - подбор частного решения](http://mathprofi.ru/kak_podobrat_chastnoe_reshenie_dy.pdf)
+
+[Mathprofi - вариация произвольных переменных](http://mathprofi.ru/metod_variacii_proizvolnyh_postoyannyh.html)
+
+[Mathprofi - линейные дифференциальные уравнения высших порядков](http://mathprofi.ru/metod_variacii_proizvolnyh_postoyannyh.html)
+
 $$y''-4y'+4y=16e^{-2x}, \ \ \ y(0)=16, \ \ y'(0) = 0$$
 Решение неоднородных уравнений делится на три шага:
 1. Решаем однородное уравнение

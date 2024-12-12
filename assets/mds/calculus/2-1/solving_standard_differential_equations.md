@@ -39,7 +39,8 @@ $(\star)$: при делении на $y$ мы говорим, что $y \neq 0$
 $$y = C \cdot e^x, \ \ \ \ C \in \mathbb R$$
 
 # Наш первый бой: разделяющиеся переменные
-[Mathprofi - разделяющиеся переменные](http://mathprofi.ru/differencialnye_uravnenija_primery_reshenii.html)<br>
+[Mathprofi - разделяющиеся переменные](http://mathprofi.ru/differencialnye_uravnenija_primery_reshenii.html)
+
 $$(y-2)^2x\dd x+ e^{2x}y \dd y = 0$$
 От туториала, он, наверное, отличается лишь сложностью интегралов. Переносим части уравнения так, чтобы с одной стороны остались лишь $x$, а с другой лишь $y$.
 $$\frac{x \dd x}{e^{2x}} = -\frac{y\dd y}{(y-2)^2}$$
@@ -60,8 +61,10 @@ $$xy \dd x + (x+1)\dd y = 0$$
 $$(x^2-1)y' + 2xy^2 =0$$
 $$y'\ctg x + y=2$$
 # Повышаем огонь: линейные диффуры и задача Коши
-[Mathprofi - задача Коши](http://mathprofi.ru/differencialnye_uravnenija_primery_reshenii.html)<br>
-[Mathprofi - линейные дифференциальные уравнения](http://mathprofi.ru/lineinye_differencialnye_uravnenija.html)<br>
+[Mathprofi - задача Коши](http://mathprofi.ru/differencialnye_uravnenija_primery_reshenii.html)
+
+[Mathprofi - линейные дифференциальные уравнения](http://mathprofi.ru/lineinye_differencialnye_uravnenija.html)
+
 $$(x+1)y' = y + x^2, \ \ \ \ y(0) = 0$$
 Линейные дифференциальные уравнения имеют вид
 $$y' + p(x) \cdot y = q(x)$$
@@ -106,7 +109,8 @@ $$(2x+1)y'=4x+2y$$
 $$(xy'-1)\ln x = 2y$$
 
 # Полный огонь: однородные уравнения
-[Mathprofi - однородные дифференциальные уравнения](http://mathprofi.ru/odnorodnye_diffury_pervogo_poryadka.html)<br>
+[Mathprofi - однородные дифференциальные уравнения](http://mathprofi.ru/odnorodnye_diffury_pervogo_poryadka.html)
+
 $$(2x+y) \dd y - (9x+2y) \dd x= 0$$
 В курсе АлГема было упоминание однородности, в контексте диффуров - дифференциальное уравнение называется однородным, если выполняется следующее равенство:
 $$F(\lambda x, \lambda y) = F(x, y)$$
