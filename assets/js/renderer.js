@@ -67,7 +67,7 @@ $(document).ready(function() {
 		if(arr !== undefined) {
 			open(`./index.html?[${arr}]`, "_self"); // go to previous directory if we came from it
 		} else
-			open(`./index.html/`, "_self"); // otherwise go to the main page
+			open(`./index.html`, "_self"); // otherwise go to the main page
 
 	});
 
