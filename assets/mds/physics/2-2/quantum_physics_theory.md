@@ -83,7 +83,7 @@ $$\pmatrix{a_1 \\ a_2} \otimes \pmatrix{b_1 & b_2} = \pmatrix{a_1\pmatrix{b_1 & 
 $$\pmatrix{a_1 & a_2} \otimes \pmatrix{b_1 \\ b_2} = \pmatrix{a_1\pmatrix{b_1 \\ b_2} & a_2\pmatrix{b_1 \\ b_2}} = \pmatrix{a_1b_1 & a_2b_1 \\ a_1b_2 & a_2b_2}$$
 
 Иногда кратким образом записывают тензорные произведения двух векторов:
-$$\array{\ket A \ket B = \ket{AB} = \ket A \otimes \ket B \\ \ket A \bra B = \ket A \otimes \ket B \\ \bra A \bra B = \bra A \otimes \bra B}$$
+$$\array{\ket A \ket B = \ket{AB} = \ket A \otimes \ket B \\ \ket A \bra B = \ket A \otimes \bra B \\ \bra A \bra B = \bra A \otimes \bra B}$$
 Только $\bra A \ket B$ не является тензорным произведением, а считается как скалярное произведение.
 ## Коммутаторы
 Коммутатор двух операторов, обозначается как $[\hat A, \hat B]$, считается по простой формулке:
