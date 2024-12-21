@@ -55,6 +55,13 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, li, a {
   transition: var(--transition-time);
 }
 
+table {
+  color: var(--text-color);
+  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p {
   font-weight: 400;
   padding-bottom: 20px;
