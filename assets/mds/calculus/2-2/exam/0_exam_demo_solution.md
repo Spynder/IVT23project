@@ -34,7 +34,7 @@ $$\frac{\dd f}{\dd {\vec n}} = \pdv{f}{x} \cos \alpha + \pdv{f}{y} \cos \beta$$
 $$\cos \alpha = \frac{n_x}{|\vec n|}, \ \ \cos \beta = \frac{n_y}{|\vec n|}$$
 $$\frac{\vec n}{|\vec n|} = \left(\frac{n_x}{|\vec n|}, \frac{n_x}{|\vec n|}\right) = (\cos \alpha, \cos \beta)$$
 Давайте посчитаем косинусы для направления $\vec a = (1,2)$:
-$$|\vec a| = \sqrt{1^2 + 2^2} = \sqrt 5, \ \ \ \cos \alpha = \frac{1}{\sqrt 5}, \ \ \cos \beta = \frac{2}{\sqrt 2}$$
+$$|\vec a| = \sqrt{1^2 + 2^2} = \sqrt 5, \ \ \ \cos \alpha = \frac{1}{\sqrt 5}, \ \ \cos \beta = \frac{2}{\sqrt 5}$$
 Теперь считаем [частные производные][[[1,3,7]]] $\pdv{f}{x}, \pdv{f}{y}$. Это как обычные производные, просто при дифференцировании по $x$ мы притворяемся, что $y$ - константа.
 $$\array{
 \pdv{f}{x} = \left(\sin^2 \left(\frac \pi 4 \ln (x+e\cdot y^2)\right)\right)'_x=\\
