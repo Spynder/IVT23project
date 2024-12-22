@@ -1,3 +1,7 @@
+Авторство: @r0ma_shhka
+
+[mathus.ru - Геометрическая оптика](https://mathus.ru/phys/geometricaloptics.pdf)
+
 *Линзы* – это прозрачные оптические элементы, которые изменяют направление света.
 ![[https://nauka.club/wp-content/auploads/906626/fullsize.jpg]]
 ## 1. Двояковыпуклая линза ($R_1 >0, R_2 > 0$)
