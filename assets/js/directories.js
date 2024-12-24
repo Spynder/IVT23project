@@ -195,6 +195,8 @@ window.dirs = [
 			{"name": "2. Формула тонкой линзы. Характеристики оптического изображения, даваемого линзой, и формулы их вычисления: действительное/мнимое, увеличенное/уменьшенное, прямое/перевернутое.", "contents": "physics/2-2/exam/2_thin_lens_formula_image_characteristics_calculations"},
 			{"name": "3. Центрированные идеальные оптические системы, их кардинальные плоскости (главные и фокальные). Оптическая сила толстой линзы. Расчет положения изображения, даваемого идеальной оптической системой.", "contents": "physics/2-2/exam/3_ideal_optical_systems_cardinal_planes_thick_lens_power"},
 			{"name": "4. Матричная оптика. Основные понятия. Матрицы для различных оптических элементов. Расчет положения изображения и его увеличения.", "contents": "physics/2-2/exam/4_matrix_optics_concepts_element_matrices_image_calculation"},
+			{"name": "7. Поляризованный свет. Закон Малюса.", "contents": "physics/2-2/exam/7_polarized_light_malus_law"},
+			{"name": "8. Формулы Френеля, закон Брюстера. Поведение фазы при отражении света.", "contents": "physics/2-2/exam/8_fresnel_formulas_brewster_law_phase_reflection"},
 		]},
 
 	]},

@@ -64,7 +64,10 @@ table {
 
 p {
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-top: 20px;
+}
+p:first-child {
+  padding-top: 0;
 }
 
 ul, ol {
