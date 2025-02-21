@@ -252,5 +252,11 @@ window.dirs = [
 		]},
 		{"name": "Разбор демо варианта контрольной работы 1 модуля", "contents": "discrete/demo_test_module1"},
 		{"name": "Разбор демо варианта контрольной работы 2 модуля", "contents": "discrete/demo_test_module2"},
+	]},
+	{"name": "Теория вероятности", "contents": [
+		{"name": "Контрольная второго модуля", "contents": [
+			{"name": "Классическое определение вероятности и комбинаторные схемы.", "contents": "probability/2-3/1_classical_probability_and_combinatorics"},
+			
+		]}
 	]}
 ]
