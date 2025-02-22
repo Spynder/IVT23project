@@ -258,6 +258,7 @@ window.dirs = [
 			{"name": "Классическое определение вероятности и комбинаторные схемы.", "contents": "probability/2-3/1_classical_probability_and_combinatorics"},
 			{"name": "Надежность схемы", "contents": "probability/2-3/2_circuit_probability"},
 			{"name": "Условная и полная вероятность, формула Байеса", "contents": "probability/2-3/3_conditional_probability"},
+			{"name": "Схемы с множественными испытаниями, наивероятнейшее событие", "contents": "probability/2-3/4_multiple_experiments_probability"},
 		]}
 	]}
 ]
