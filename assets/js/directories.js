@@ -76,7 +76,7 @@ window.dirs = [
 			{"name": "71. Существование ортогонального базиса в евклидовом пространстве. Метод ортогонализации Грама-Шмидта.", "contents": "algem/71_existence_of_orthogonal_basis_in_euclidean_space_gram-schmidt_orthogonalization_method"},
 			{"name": "72. Билинейные формы. Матрица билинейной формы.", "contents": "algem/72_bilinear_forms_matrix_of_bilinear_form"},
 			{"name": "73. Квадратичные формы. Приведение квадратичной формы к диагональному и каноническому виду.", "contents": "algem/73_quadratic_forms_reduction_of_quadratic_form_to_diagonal_and_canonical_form"},
-			{"name": "74. Метод Лагранжа приведения квадратичной формы к диагональному виду. Ранг и индекс квадратичной формы.", "contents": "algem/lagranges_method_of_reducing_quadratic_form_to_diagonal_form_rank_and_index_of_quadratic_form"}
+			{"name": "74. Метод Лагранжа приведения квадратичной формы к диагональному виду. Ранг и индекс квадратичной формы.", "contents": "algem/74_lagranges_method_of_reducing_quadratic_form_to_diagonal_form_rank_and_index_of_quadratic_form"}
 		]},
 		{"name": "Задачи", "contents": [
 			{"name": "--- ГЕОМЕТРИЯ ---"},
@@ -257,7 +257,7 @@ window.dirs = [
 		{"name": "Контрольная второго модуля", "contents": [
 			{"name": "Классическое определение вероятности и комбинаторные схемы.", "contents": "probability/2-3/1_classical_probability_and_combinatorics"},
 			{"name": "Надежность схемы", "contents": "probability/2-3/2_circuit_probability"},
-			
+			{"name": "Условная и полная вероятность, формула Байеса", "contents": "probability/2-3/3_conditional_probability"},
 		]}
 	]}
 ]
