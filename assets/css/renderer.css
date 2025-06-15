@@ -85,6 +85,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  margin-top: 0.5rem;
 }
 
 #navButtons {
@@ -156,4 +157,8 @@ input:focus + .slider {
 }
 input:checked + .slider:before {
   transform: translateX(26px);
+}
+
+li {
+  margin-bottom: 0.5rem;
 }/*# sourceMappingURL=renderer.css.map */
