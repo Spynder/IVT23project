@@ -1,5 +1,10 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/4-1.jpg]]
+![[probability/origin/4-2.jpg]]
+![[probability/origin/4-3.jpg]]
+
 (определение мощностей конечных множеств — теория измерений)
 
 1) **Правило сложения**  
@@ -38,8 +43,3 @@ $А, Ф, И$ — 2
 
 $20 + 15 + 11 - 7 - 5 - 5 + 2 = 33 \Rightarrow 40 - 33 = 7$
 
-
-# Исходники:
-![[probability/origin/4-1.jpg]]
-![[probability/origin/4-2.jpg]]
-![[probability/origin/4-3.jpg]]

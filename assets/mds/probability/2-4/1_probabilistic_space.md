@@ -1,5 +1,10 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/1-1.jpg]]
+![[probability/origin/1-2.jpg]]
+![[probability/origin/1-3.jpg]]
+
 Это тройка $(\Omega, \mathcal{F}, P)$, где:
 
 1. $\Omega$ — пространство элементарных событий (все возможные исходы эксперимента), пространство элементарных исходов.
@@ -21,10 +26,10 @@
 
 **Пример**  
 Бросание монеты:  
-$$\Omega = \{0, p3\}$$
-$$\mathcal{F} = \{\{0\}, \{p3\}, \{0, p3\}, \varnothing\}$$
-$$P(\{0\}) = \frac{1}{2}\ \ \ \ \ P(\{p3\}) = \frac{1}{2}$$
-$$P(\{0, p3\}) = 1 \ \ \ \ \ P(\varnothing) = 0$$
+$$\Omega = \{0, p\}$$
+$$\mathcal{F} = \{\{0\}, \{p\}, \{0, p\}, \varnothing\}$$
+$$P(\{0\}) = \frac{1}{2}\ \ \ \ \ P(\{p\}) = \frac{1}{2}$$
+$$P(\{0, p\}) = 1 \ \ \ \ \ P(\varnothing) = 0$$
 
 $\Omega = \{w_1, \ldots, w_n, \ldots\}$ — счётное множество
 
@@ -37,7 +42,3 @@ $P_i$, $F_i = 2^{P_i}$
 $P(F) = \dfrac{m(F)}{m(\Omega)}$, где $m$ — мера области  
 (длина, площадь или объём)
 
-# Исходники:
-![[probability/origin/1-1.jpg]]
-![[probability/origin/1-2.jpg]]
-![[probability/origin/1-3.jpg]]

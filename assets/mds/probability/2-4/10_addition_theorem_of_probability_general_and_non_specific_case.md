@@ -1,5 +1,11 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/10-1.jpg]]
+![[probability/origin/10-2.jpg]]
+![[probability/origin/10-3.jpg]]
+![[probability/origin/10-4.jpg]]
+
 Вероятность объединения двух событий $A$ и $B$
 
 $$P(A \cup B) = P(A) + P(B) - P(A B)$$
@@ -106,10 +112,3 @@ $$P\left(\bigcup\limits_{i=1}^{n+1} A_i\right) = P\left(\bigcup\limits_{i=1}^{n}
 $$P\left(\bigcup\limits_{i=1}^{n+1} A_i\right) \leq \sum\limits_{i=1}^{n+1} P(A_i), \quad \forall n \in \mathbb{N}$$
 
 ч.т.д.
-
-
-# Исходники:
-![[probability/origin/10-1.jpg]]
-![[probability/origin/10-2.jpg]]
-![[probability/origin/10-3.jpg]]
-![[probability/origin/10-4.jpg]]

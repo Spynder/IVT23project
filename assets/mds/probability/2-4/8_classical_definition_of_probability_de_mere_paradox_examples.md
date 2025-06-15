@@ -1,5 +1,10 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/8-1.jpg]]
+![[probability/origin/8-2.jpg]]
+![[probability/origin/8-3.jpg]]
+
 Применимо только в классической схеме, когда все исходы:
 
 а) Исчерпывающим образом описаны (число всех исходов конечно)  
@@ -36,8 +41,3 @@ $$P = \frac{2}{\frac{6 \cdot (6 + 1)}{2}} = \frac{2}{21}$$
 
 $$P_{11} = \frac{27}{216} > P_{12} = \frac{25}{216}$$
 
-
-# Исходники:
-![[probability/origin/8-1.jpg]]
-![[probability/origin/8-2.jpg]]
-![[probability/origin/8-3.jpg]]

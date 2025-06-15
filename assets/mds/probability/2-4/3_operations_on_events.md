@@ -1,5 +1,10 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/3-1.jpg]]
+![[probability/origin/3-2.jpg]]
+![[probability/origin/3-3.jpg]]
+
 Операции над событиями аналогичны операциям над множествами:
 
 1) $A + B = A \cup B$  
@@ -45,8 +50,3 @@
 2) $P(A \setminus B) = P(A) - P(A \cap B)$  
 3) $A \subseteq B \Rightarrow P(A) \leq P(B)$
 
-
-# Исходники:
-![[probability/origin/3-1.jpg]]
-![[probability/origin/3-2.jpg]]
-![[probability/origin/3-3.jpg]]

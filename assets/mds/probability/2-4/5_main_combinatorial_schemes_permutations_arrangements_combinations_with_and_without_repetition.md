@@ -1,5 +1,11 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/5-1.jpg]]
+![[probability/origin/5-2.jpg]]
+![[probability/origin/5-3.jpg]]
+![[probability/origin/5-4.jpg]]
+
 1) **Схема декомпозиции**  
 Имеется $k$ групп с численностями $n_1, n_2, \ldots, n_k$ — число различных наборов, расположенных по одному элементу из каждой группы, есть $N = \prod_{i=1}^{k} n_i$
 
@@ -50,10 +56,3 @@ $$N = C_n^{n_1} \cdot C_{n - n_1}^{n_2} \cdot C_{n - n_1 - n_2}^{n_3} \cdot \ldo
 $\sum A_1 B_1 C_3 = \sum A_1 A_3, \sum A_1 B_3, \sum A_1 C_3 \ldots$
 
 $$C_{n + r - 1}^r$$
-
-
-# Исходники:
-![[probability/origin/5-1.jpg]]
-![[probability/origin/5-2.jpg]]
-![[probability/origin/5-3.jpg]]
-![[probability/origin/5-4.jpg]]

@@ -1,5 +1,11 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/7-1.jpg]]
+![[probability/origin/7-2.jpg]]
+![[probability/origin/7-3.jpg]]
+![[probability/origin/7-4.jpg]]
+
 $$P(A) = \frac{S_A}{S}$$
 где $S$ - мера всей области, а $S_A$ - мера той её части, на которую случайная точка попадает, если случится событие $A$.
 
@@ -54,10 +60,3 @@ $$P = \frac{1}{2}$$
 ![[probability/2-4-7-6.png]]
 
 $$P = \frac{S_{\text{в.п.}}}{S_{\text{б.к.}}} = \frac{1}{4},\quad (r_м = \frac12, r_б = 1)$$
-
-
-# Исходники:
-![[probability/origin/7-1.jpg]]
-![[probability/origin/7-2.jpg]]
-![[probability/origin/7-3.jpg]]
-![[probability/origin/7-4.jpg]]

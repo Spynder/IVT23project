@@ -1,5 +1,9 @@
 (Авторство билетов: @r0ma_shhka)
 
+# Исходники:
+![[probability/origin/2-1.jpg]]
+![[probability/origin/2-2.jpg]]
+
 $P = P(F)$ — числовая функция, определённая на $\sigma$-алгебре событий $F$,  
 для которой верны 3 эквивалентных аксиомы системы (I и II):
 
@@ -23,7 +27,3 @@ $P = P(F)$ — числовая функция, определённая на $\
 3) если для $\forall i \ne j: A_i \cap A_j = \varnothing$,  
 то $P\left(\sum_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$ — счётная аддитивность
 
-
-# Исходники:
-![[probability/origin/2-1.jpg]]
-![[probability/origin/2-2.jpg]]
